@@ -71,6 +71,7 @@ $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #1779ba,
   secondary: #767676,
+  
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -80,7 +81,7 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
+$body-background: $light-gray;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
@@ -840,10 +841,11 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: $medium-gray;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
+$topbar-border: 1,1,1,1;
 $topbar-unstack-breakpoint: medium;
 
 // 56. Xy Grid
@@ -858,4 +860,3 @@ $grid-margin-gutters: (
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $block-grid-max: 8;
-
