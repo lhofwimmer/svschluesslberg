@@ -1,0 +1,60 @@
+$tomato: #ff6347;
+
+/* Top Bar */
+.top-bar{
+  color:$white;
+
+  span{
+    color:lighten( $primary, 30% );
+    background:$dark-gray;
+    padding:5px 9px;
+    margin-right:4px;
+  }
+
+  li{
+    text-transform: uppercase;
+  }
+
+  a{
+    color: $white;
+  }
+
+  $red: #FF0000;
+
+  a:hover{
+    color: $red;
+  }
+
+  a.current{
+    color: $red;
+    border-bottom:3px solid $red;
+  }
+}
+
+.menu-vertical
+{
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+}
+
+
+
+.welcome-carousel
+{
+  background-color: $tomato;
+  .orbit
+  {
+    padding-top: 20px;
+    padding-bottom: 13px;
+  }
+}
+
+.player-introduction
+{
+  .new-player
+  {
+    margin: 10px 10px 10px 10px;
+    background-color: $tomato;
+  }
+}

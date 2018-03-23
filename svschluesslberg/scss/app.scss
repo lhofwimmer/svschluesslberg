@@ -1,15 +1,12 @@
 @charset 'utf-8';
 
-@import '_settings';
+@import 'settings';
 @import 'foundation';
 @import 'motion-ui';
 
-@import 'navbar';
-
 @include foundation-global-styles;
-//@include foundation-grid;
+@include foundation-grid;
 // @include foundation-flex-grid;
-@include foundation-xy-grid-classes;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -35,7 +32,6 @@
 @include foundation-pagination;
 @include foundation-progress-bar;
 // @include foundation-progress-element;
-// @include foundation-progress-element;
 // @include foundation-meter-element;
 @include foundation-slider;
 @include foundation-sticky;
@@ -48,10 +44,11 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
-// @include foundation-float-classes;
-@include foundation-flex-classes;
-
-// @include foundation-prototype-classes;
+@include foundation-float-classes;
+// @include foundation-flex-classes;
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+//@import '../bower_components/font-awesome-sass/assets/stylesheets/font-awesome';
+@import 'custom';
