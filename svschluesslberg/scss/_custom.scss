@@ -52,9 +52,26 @@ $tomato: #ff6347;
 
 .player-introduction
 {
+  text-align: center;
+  background-color: #FEC500;
+  font: 'Roboto';
+  
   .new-player
   {
-    margin: 10px 10px 10px 10px;
-    background-color: $tomato;
+    border: 2px solid #0000ff;
+    padding-top: 15px;
+    margin-bottom: 25px;
+    background-color: $medium-light-gray;
+  }
+
+  .new-player:hover
+  {
+    background-color: $medium-gray;
+  }
+
+  img
+  {
+    height: 130px;
+    border-radius: 50%;
   }
 }
