@@ -5,10 +5,15 @@ $tomato: #ff6347;
   color:$white;
 
   span{
-    color:lighten( $primary, 30% );
+    color:lighten( #ff6347, 30% );
     background:$dark-gray;
     padding:5px 9px;
     margin-right:4px;
+  }
+
+  .nav
+  {
+    font-size: 1.1em;
   }
 
   li{
@@ -22,12 +27,13 @@ $tomato: #ff6347;
   $red: #FF0000;
 
   a:hover{
-    color: $red;
+    color: tomato;
+
   }
 
   a.current{
-    color: $red;
-    border-bottom:3px solid $red;
+    color: tomato;
+    border-bottom:3px solid tomato;
   }
 }
 
@@ -40,7 +46,7 @@ $tomato: #ff6347;
 
 
 
-.welcome-carousel
+.news-carousel
 {
   background-color: $tomato;
   .orbit
@@ -55,10 +61,15 @@ $tomato: #ff6347;
   text-align: center;
   background-color: #FEC500;
   font: 'Roboto';
-  
+
+  .header-player-introduction
+  {
+
+  }
+
   .new-player
   {
-    border: 2px solid #0000ff;
+    border: 5px solid #FEC500;
     padding-top: 15px;
     margin-bottom: 25px;
     background-color: $medium-light-gray;
@@ -74,4 +85,17 @@ $tomato: #ff6347;
     height: 130px;
     border-radius: 50%;
   }
+}
+
+.timetable
+{
+  thead
+  {
+    background-color: $tomato
+  }
+}
+
+.media-preview
+{
+
 }
