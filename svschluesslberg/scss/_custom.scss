@@ -91,11 +91,30 @@ $tomato: #ff6347;
 {
   thead
   {
-    background-color: $tomato
+    background-color: $tomato;
+    border: 1px solid $tomato;
+  }
+  background-color: #558F6E;
+
+  .recent-matches
+  {
+
+  }
+
+  .future-matches
+  {
+
   }
 }
 
 .media-preview
 {
 
+}
+
+footer
+{
+  padding-top: 50px;
+  background-color: $light-gray;
+  padding-bottom: 20px;
 }
