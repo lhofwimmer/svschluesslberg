@@ -95,6 +95,7 @@ $tomato: #ff6347;
     border: 1px solid $tomato;
   }
   background-color: #558F6E;
+  padding-bottom: 9px;
 
   .recent-matches
   {
@@ -117,4 +118,55 @@ footer
   padding-top: 50px;
   background-color: $light-gray;
   padding-bottom: 20px;
+}
+
+.impressum-content
+{
+  background-color: #F0F4F1;
+}
+
+.media-preview
+{
+  background-color: #46B29D;
+
+  .image-preview
+  {
+    max-width: 20rem;
+    max-height: 17rem;
+    height: auto;
+    width: auto;
+
+  }
+}
+
+.media-preview-entry
+{
+  color: #000000;
+
+  img
+  {
+    max-height: 7rem;
+    max-width: 7rem;
+    height: auto;
+    width: auto;
+  }
+
+  :hover
+  {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background: #f5f5f5;
+  }
+}
+
+.sponsor-grid
+{
+  background-color: #324D5C;
+
+  img
+  {
+    max-height: 15rem;
+  }
 }
